@@ -30,7 +30,7 @@ ol#crumbs {
 
 body {
 	background-color: #F1F1EF;
-	/* background: #F1F1EF url("/sites/fpx/files/images/body_background.gif") repeat-x left top; */
+	/* background: #F1F1EF url("/files/images/body_background.gif") repeat-x left top; */
 	width:966px;
 
 	margin:0;
@@ -51,7 +51,7 @@ body {
 
 #main-content {
 
-	background: url("/sites/fpx/files/images/bg-content-shadow.png") no-repeat;
+	background: url("/files/images/bg-content-shadow.png") no-repeat;
 	padding-left:43px;	
 	margin-left:0;
 }
@@ -59,7 +59,7 @@ body {
  /*  dont show the page title in the middle of the page */
  h1#page-title {
  	
- 	background: #fff url("/sites/fpx/files/images/bg-content-title.png") no-repeat;
+ 	background: #fff url("/files/images/bg-content-title.png") no-repeat;
  	
 	color: #1c1e1c;
 	font-size: 24px;
