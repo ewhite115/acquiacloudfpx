@@ -1,0 +1,113 @@
+
+
+/* override / eliminate the annoying top border on tbody tr */
+tbody,
+tbody tr {
+	border-top: none;
+}
+
+
+
+ .author-datetime {
+ 	display:none;
+ }
+
+ /* Get rid of bottom margins in the header  */
+.region-header .block {
+	margin:0;
+}
+.block {
+	margin-bottom: 0;
+}
+
+
+/* dont show breadcrumbs */
+ol#crumbs {
+	display: none;
+}
+
+
+
+body {
+	background-color: #F1F1EF;
+	/* background: #F1F1EF url("/sites/fpx/files/images/body_background.gif") repeat-x left top; */
+	width:966px;
+
+	margin:0;
+	padding:0;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+    font-size: 13px;
+	color: #1c1e1c;
+
+
+}
+
+
+
+.fpx_logo_block{
+	padding-top:10px;
+	padding-left: 20px;
+}
+
+#main-content {
+
+	background: url("/sites/fpx/files/images/bg-content-shadow.png") no-repeat;
+	padding-left:43px;	
+	margin-left:0;
+}
+
+ /*  dont show the page title in the middle of the page */
+ h1#page-title {
+ 	
+ 	background: #fff url("/sites/fpx/files/images/bg-content-title.png") no-repeat;
+ 	
+	color: #1c1e1c;
+	font-size: 24px;
+	font-weight: normal;
+	margin: 0;
+	padding: 31px 15px 0 37px;
+	border-bottom:1px solid #999A8F;
+
+ }
+
+#content {
+
+	padding-left:10px;
+	background:white;
+
+	background-color: #fff;
+	height: auto;
+	min-height: 200px;
+	
+	padding: 17px 38px
+
+}
+
+.menu li.leaf, .menu li.collapsed, .menu li.expanded {
+	list-style-image: none;
+	list-style-type: none;
+	text-decoration: none;
+}
+.menu .active-trail {
+	background-color: white;
+}
+.menu ul {
+	margin-top:0; margin-bottom: 0;
+}
+.menu li {
+	border-bottom: 1px dashed gray;
+}
+.menu li a {
+	font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #0082c8;
+
+	font-weight: bold;
+}
+.menu li a:link, .menu li a:visited {
+	color: #0082c8; text-decoration: none;
+}
+
+.fpx_home_bottomblock {
+	background:white;
+	width:936px;
+	margin-left:20px;
+}
