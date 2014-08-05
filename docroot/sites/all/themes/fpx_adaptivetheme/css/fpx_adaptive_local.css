@@ -100,7 +100,6 @@ body {
 }
 .menu li a {
 	font-family:Verdana, Arial, Helvetica, sans-serif; font-size: 12px; line-height: 18px; color: #0082c8;
-
 	font-weight: bold;
 }
 .menu li a:link, .menu li a:visited {
@@ -110,7 +109,7 @@ body {
 	color:gray;
 	font-style: italic;
 }
-.menu .active {
+.menu li a.active {
 	color: black;
 }
 
