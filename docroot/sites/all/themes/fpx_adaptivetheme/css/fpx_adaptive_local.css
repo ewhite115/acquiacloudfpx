@@ -72,7 +72,6 @@ body {
 
 #content {
 
-	
 	padding: 17px 38px 0px;  /* 17top, 38 sides, 0 bottom */
 
 	background:white;
@@ -127,4 +126,11 @@ body {
 .flexslider img {
 
 /*max-height:347px;	*/
+}
+
+/* adjustments on the bottom block for the home page */
+#mini-panel-fpx_home_page_bottom_content_min {
+	
+	margin-top: -20px;
+
 }
