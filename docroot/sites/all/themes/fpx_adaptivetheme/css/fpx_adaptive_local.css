@@ -103,7 +103,7 @@ body {
 
 	font-weight: bold;
 }
-.menu .menu-depth-3 li a {
+.menu .menu-depth-3 a {
 	color:gray;
 	font-style: italic;
 }
