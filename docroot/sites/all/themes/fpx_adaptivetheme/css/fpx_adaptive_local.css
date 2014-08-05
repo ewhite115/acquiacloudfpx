@@ -103,14 +103,15 @@ body {
 
 	font-weight: bold;
 }
+.menu .menu-depth-3 li a {
+	color:gray;
+	font-style: italic;
+}
+
 .menu li a:link, .menu li a:visited {
 	color: #0082c8; text-decoration: none;
 }
 
-.menu .menu-depth-3 {
-	color:gray;
-	font-style: italic;
-}
 
 
 
