@@ -159,10 +159,10 @@
             <?php print render($title_prefix); // Does nothing by default in D7 core ?>
 
             <!-- !Main Content Header -->
-            <?php if ( ($title != "FPX: Home") && ($title || $primary_local_tasks || $secondary_local_tasks || $action_links = render($action_links))): ?>
+            <?php if ( ($title || $primary_local_tasks || $secondary_local_tasks || $action_links = render($action_links))): ?>
               <header<?php print $content_header_attributes; ?>>
 
-                <?php if ($title): ?>
+                <?php if (($title != "FPX: Home") && $title): ?>
                   <h1 id="page-title"> 
                     <?php print $title; ?>
                   </h1>
