@@ -107,11 +107,12 @@ body {
 	color: #0082c8; text-decoration: none;
 }
 
-.fpx_home_bottomblock {
-	background:white;
-	width:936px;
-	margin-left:20px;
+.menu .menu-depth-3 {
+	color:gray;
+	font-style: italic;
 }
+
+
 
 
 /* adjust the flexslider div on the homepage to take up the prope */
@@ -123,12 +124,14 @@ body {
 	border:none;
 	/*max-height:347px;*/
 }
-.flexslider img {
 
-/*max-height:347px;	*/
-}
 
 /* adjustments on the bottom block for the home page */
+.fpx_home_bottomblock {
+	background:white;
+	width:936px;
+	margin-left:20px;
+}
 #mini-panel-fpx_home_page_bottom_content_min {
 	
 	margin-top: -20px;
