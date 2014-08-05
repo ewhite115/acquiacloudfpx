@@ -114,8 +114,11 @@ body {
 
 
 /* adjust the flexslider div on the homepage to take up the prope */
-.flexslider{
-	width:115%;
+.flexslider {
+	width: 110%;
+	padding: 0px;
+	margin-left: -33px;
+	border:none;
 	/*max-height:347px;*/
 }
 .flexslider img {
