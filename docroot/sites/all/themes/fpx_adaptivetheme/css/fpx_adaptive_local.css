@@ -106,7 +106,7 @@ body {
 .menu li a:link, .menu li a:visited {
 	color: #0082c8; text-decoration: none;
 }
-.menu .menu-depth-3 a {
+.menu .menu-depth-3 a:link {
 	color:gray;
 	font-style: italic;
 }
