@@ -190,7 +190,7 @@
             <?php endif; ?>
 
             <!-- !Main Content -->
-            <?php if (($title != "FPX: Home") && ($content = render($page['content']))): ?>
+            <?php if ( ($content = render($page['content']))): ?>
               <div id="content" class="region">
                 <?php print $content; ?>
               </div>
