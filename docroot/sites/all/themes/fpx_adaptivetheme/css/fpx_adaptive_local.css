@@ -110,6 +110,9 @@ body {
 	color:gray;
 	font-style: italic;
 }
+.menu .active {
+	color: black;
+}
 
 
 
