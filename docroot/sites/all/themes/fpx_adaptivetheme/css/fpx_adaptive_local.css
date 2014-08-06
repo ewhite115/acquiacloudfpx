@@ -84,6 +84,11 @@ body {
 
 }
 
+/* restrain the width of the main menu so the dotted lines only go half way */
+#block-system-main-menu {
+	width:85%;
+
+}
 .menu li.leaf, .menu li.collapsed, .menu li.expanded {
 	list-style-image: none;
 	list-style-type: none;
