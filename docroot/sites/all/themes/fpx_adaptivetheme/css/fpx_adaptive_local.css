@@ -91,6 +91,7 @@ body {
 /* restrain the width of the main menu so the dotted lines only go half way */
 #block-system-main-menu {
 	width:95%;
+	margin-top: -35px;
 
 }
 .menu li.leaf, .menu li.collapsed, .menu li.expanded {
