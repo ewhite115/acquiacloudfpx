@@ -90,7 +90,7 @@ body {
 
 /* restrain the width of the main menu so the dotted lines only go half way */
 #block-system-main-menu {
-	width:95%;
+	width:100%;
 	margin-top: -35px;
 
 }
