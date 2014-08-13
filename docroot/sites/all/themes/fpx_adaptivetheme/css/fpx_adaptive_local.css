@@ -77,15 +77,11 @@ body {
 #content {
 
 	padding: 17px 38px 0px;  /* 17top, 38 sides, 0 bottom */
-
 	background:white;
-
 	background-color: #fff;
 	height: auto;
 	min-height: 200px;
 	
-	
-
 }
 
 /* restrain the width of the main menu so the dotted lines only go half way */
